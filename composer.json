@@ -1,0 +1,22 @@
+{
+    "name": "igor/hexlet-autotest-course",
+    "autoload": {
+        "psr-4": {
+            "Igor\\HexletAutotestCourse\\": "src/"
+        },"files": [
+            "src/stringUtils.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "igor.pvdc",
+            "email": "igor.pvdc@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
+    },
+    "require": {
+        "ext-mbstring": "*"
+    }
+}
