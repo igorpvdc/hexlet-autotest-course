@@ -14,9 +14,11 @@
         }
     ],
     "require-dev": {
-        "squizlabs/php_codesniffer": "*"
+        "squizlabs/php_codesniffer": "*",
+        "phpstan/phpstan-webmozart-assert": "^1.0"
     },
     "require": {
-        "ext-mbstring": "*"
+        "ext-mbstring": "*",
+        "webmozart/assert": "^1.10"
     }
 }
